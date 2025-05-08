@@ -33,6 +33,10 @@ spring:
 malgn:
   enabled: on
 
+## app
+app:
+  base-location: ${app_base_location}
+
 ## logging
 logging:
   charset:
